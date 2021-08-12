@@ -1,0 +1,40 @@
+/** @format */
+
+@import "../../variables.scss";
+
+.featured {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    flex: 1;
+    margin: 0 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
+    box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
+  }
+
+  &__title {
+    font-size: 20px;
+  }
+
+  &__container {
+      margin: 10px 0px;
+      display: flex;
+      align-items: center;
+  }
+
+  &__money {
+      font-size: 30px;
+      font-weight: bold;
+  }
+
+  &__rate {
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+  }
+}
