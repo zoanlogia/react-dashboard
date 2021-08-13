@@ -1,4 +1,3 @@
-import React from 'react'
 import './topbar.scss'
 import { NotificationsNone, Language, Settings } from '@material-ui/icons'
 import Avatar from '../../assets/img/moi.jpg'

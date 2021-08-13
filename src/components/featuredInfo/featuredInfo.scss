@@ -37,4 +37,19 @@
       align-items: center;
       margin-left: 20px;
   }
+
+  &__iconState {
+      font-size: 14px;
+      margin-left: 5px;
+      color: $done-color;
+  }
+
+  &__iconState.negative {
+      
+      color: $alert-color;
+  }
+
+  &__featuredSub {
+      color: $grey-color;
+  }
 }

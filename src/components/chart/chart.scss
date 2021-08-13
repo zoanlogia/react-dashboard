@@ -1,0 +1,14 @@
+@import '../../variables.scss';
+
+.chart {
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
+    box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
+    border-radius: 10px;
+
+    &__title {
+        margin-bottom: 20px;
+    }
+}
+

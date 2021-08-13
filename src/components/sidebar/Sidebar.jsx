@@ -1,6 +1,3 @@
-/** @format */
-
-import React from "react";
 import "./sidebar.scss";
 import { LineStyle, Timeline, TrendingUp } from "@material-ui/icons";
 
