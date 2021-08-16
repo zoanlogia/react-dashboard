@@ -1,0 +1,53 @@
+/** @format */
+
+@import "../../variables.scss";
+
+.user {
+  flex: 4;
+  padding: 20px;
+
+  &__titleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    &__addButton {
+      border-radius: 10px;
+      padding: 5px 10px;
+      background-color: $btn-color;
+      color: $grey-color;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  }
+
+  &__userContainer {
+      display: flex;
+      margin-top: 20px;
+
+      &__userShow {
+          flex: 1;
+          padding: 20px;
+          -webkit-box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
+          box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
+
+          &__top {
+
+            &__img {
+                height: 80px;
+                width: 80px;
+            }
+          }
+      }
+
+      &__userUpdate {
+          flex: 2;
+          padding: 20px;
+          -webkit-box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
+          box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
+          margin-left: 20px;
+      }
+  }
+
+}

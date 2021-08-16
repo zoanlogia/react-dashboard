@@ -1,47 +1,150 @@
-export const userData = 
-    [
-      {
-        name: "Jan",
-        'Active User': 4000,
-      },
-      {
-        name: "Fev",
-        'Active User': 3000,
-      },
-      {
-        name: "Mar",
-        'Active User': 2000,
-      },
-      {
-        name: "Avr",
-        'Active User': 2780,
-      },
-      {
-        name: "Mai",
-        'Active User': 1890,
-      },
-      {
-        name: "Jui",
-        'Active User': 2390,
-      },
-      {
-        name: "Jui",
-        'Active User': 3490,
-      },
-      {
-        name: "Aou",
-        'Active User': 3490,
-      },
-      {
-        name: "Sep",
-        'Active User': 3490,
-      },
-      {
-        name: "Nov",
-        'Active User': 3490,
-      },
-      {
-        name: "Dec",
-        'Active User': 3490,
-      },
-    ];
+import Avatar from './assets/img/moi.jpg'
+
+export const userData = [
+  {
+    name: "Jan",
+    "Active User": 4000,
+  },
+  {
+    name: "Fev",
+    "Active User": 3000,
+  },
+  {
+    name: "Mar",
+    "Active User": 2000,
+  },
+  {
+    name: "Avr",
+    "Active User": 2780,
+  },
+  {
+    name: "Mai",
+    "Active User": 1890,
+  },
+  {
+    name: "Jui",
+    "Active User": 2390,
+  },
+  {
+    name: "Jui",
+    "Active User": 3490,
+  },
+  {
+    name: "Aou",
+    "Active User": 3490,
+  },
+  {
+    name: "Sep",
+    "Active User": 3490,
+  },
+  {
+    name: "Nov",
+    "Active User": 3490,
+  },
+  {
+    name: "Dec",
+    "Active User": 3490,
+  },
+];
+
+export const userRows = [
+  {
+    id: 1,
+    user: "Jon",
+    avatar: { Avatar },
+    email: "jon@snow.com",
+    age: 35,
+    status: "active",
+    transaction: "120€",
+  },
+  {
+    id: 2,
+    user: "Jon",
+    avatar: { Avatar },
+    email: "jon@snow.com",
+    age: 35,
+    status: "active",
+    transaction: "120€",
+  },
+  {
+    id: 3,
+    user: "Jon",
+    avatar: { Avatar },
+    email: "jon@snow.com",
+    age: 35,
+    status: "active",
+    transaction: "120€",
+  },
+  {
+    id: 4,
+    user: "Jon",
+    avatar: { Avatar },
+    email: "jon@snow.com",
+    age: 35,
+    status: "active",
+    transaction: "120€",
+  },
+  {
+    id: 5,
+    user: "Jon",
+    avatar: { Avatar },
+    email: "jon@snow.com",
+    age: 35,
+    status: "active",
+    transaction: "120€",
+  },
+  {
+    id: 6,
+    user: "Jon",
+    avatar: { Avatar },
+    email: "jon@snow.com",
+    age: 35,
+    status: "active",
+    transaction: "120€",
+  },
+  {
+    id: 7,
+    user: "Jon",
+    avatar: { Avatar },
+    email: "jon@snow.com",
+    age: 35,
+    status: "active",
+    transaction: "120€",
+  },
+  {
+    id: 8,
+    user: "Jon",
+    avatar: { Avatar },
+    email: "jon@snow.com",
+    age: 35,
+    status: "active",
+    transaction: "120€",
+  },
+  {
+    id: 9,
+    user: "Jon",
+    avatar: { Avatar },
+    email: "jon@snow.com",
+    age: 35,
+    status: "active",
+    transaction: "120€",
+  },
+  {
+    id: 10,
+    user: "Jon",
+    avatar: { Avatar },
+    email: "jon@snow.com",
+    age: 35,
+    status: "active",
+    transaction: "120€",
+  },
+  {
+    id: 11,
+    user: "Jon",
+    avatar: { Avatar },
+    email: "jon@snow.com",
+    age: 35,
+    status: "active",
+    transaction: "120€",
+  },
+];

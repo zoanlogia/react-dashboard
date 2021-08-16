@@ -1,0 +1,33 @@
+@import '../../variables.scss';
+
+.userList{
+    flex: 4;
+
+    &__user {
+        display: flex;
+        align-items: center;
+
+        &__img {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+    }
+
+    &__edit {
+        border-radius: 10px;
+        padding: 5px 10px;
+        background-color: $btn-color;
+        color: $grey-color;
+        border: none;
+        cursor: pointer;
+
+        &__icon {
+            margin: 0 10px;
+            cursor: pointer;
+            color: $alert-color;
+        }
+    }
+}

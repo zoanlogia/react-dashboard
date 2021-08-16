@@ -1,5 +1,5 @@
 import "./sidebar.scss";
-import { LineStyle, Timeline, TrendingUp } from "@material-ui/icons";
+import { EqualizerSharp, EuroSharp, FeedbackSharp, LineStyle, MailSharp, MessageSharp, PersonSharp, ReportSharp, StorefrontSharp, Timeline, TrendingUp, WorkSharp } from "@material-ui/icons";
 
 export default function Sidebar() {
   return (
@@ -23,19 +23,40 @@ export default function Sidebar() {
           </ul>
         </div>
         <div className="sidebar__menu">
-          <h3 className="sidebar__title">Dashboard</h3>
+          <h3 className="sidebar__title">Menu rapide</h3>
           <ul className="sidebar__list">
             <li className="sidebar__listItem">
-              <LineStyle className="sidebar__icons" />
-              Accueil
+              <PersonSharp className="sidebar__icons" />
+              Utilsateurs
             </li>
             <li className="sidebar__listItem">
-              <Timeline className="sidebar__icons"/>
-              Analyses
+              <StorefrontSharp className="sidebar__icons"/>
+              Produits
             </li>
             <li className="sidebar__listItem">
-              <TrendingUp className="sidebar__icons"/>
-              Ventes
+              <EuroSharp className="sidebar__icons"/>
+              Transactions
+            </li>
+            <li className="sidebar__listItem">
+              <EqualizerSharp className="sidebar__icons"/>
+              Statistiques
+            </li>
+          </ul>
+        </div>
+        <div className="sidebar__menu">
+          <h3 className="sidebar__title">Notifications</h3>
+          <ul className="sidebar__list">
+            <li className="sidebar__listItem">
+              <MailSharp className="sidebar__icons" />
+              Mail
+            </li>
+            <li className="sidebar__listItem">
+              <FeedbackSharp className="sidebar__icons"/>
+              Retours
+            </li>
+            <li className="sidebar__listItem">
+              <MessageSharp className="sidebar__icons"/>
+              Messages
             </li>
           </ul>
         </div>
@@ -43,33 +64,16 @@ export default function Sidebar() {
           <h3 className="sidebar__title">Dashboard</h3>
           <ul className="sidebar__list">
             <li className="sidebar__listItem">
-              <LineStyle className="sidebar__icons" />
-              Accueil
+              <WorkSharp className="sidebar__icons" />
+              Gérer
             </li>
             <li className="sidebar__listItem">
               <Timeline className="sidebar__icons"/>
               Analyses
             </li>
             <li className="sidebar__listItem">
-              <TrendingUp className="sidebar__icons"/>
-              Ventes
-            </li>
-          </ul>
-        </div>
-        <div className="sidebar__menu">
-          <h3 className="sidebar__title">Dashboard</h3>
-          <ul className="sidebar__list">
-            <li className="sidebar__listItem">
-              <LineStyle className="sidebar__icons" />
-              Accueil
-            </li>
-            <li className="sidebar__listItem">
-              <Timeline className="sidebar__icons"/>
-              Analyses
-            </li>
-            <li className="sidebar__listItem">
-              <TrendingUp className="sidebar__icons"/>
-              Ventes
+              <ReportSharp className="sidebar__icons"/>
+              Rapports
             </li>
           </ul>
         </div>

@@ -8,7 +8,7 @@
   position: sticky;
   top: 50px;
   background-color: whitesmoke;
-  border-radius:0 10px 10px 0;
+  border-radius: 0 10px 10px 0;
 
   &__wrapper {
     padding: 2px;
@@ -16,31 +16,34 @@
   }
 
   &__menu {
-    margin-bottom: 10px;
+    margin: 40px 0 0 15px;
   }
 
   &__title {
-    font-size: 13px;
+    padding: 15px 5px;
+    font-size: 15px;
     color: rgb(80, 77, 77);
   }
 
   &__list {
     padding: 5px;
     list-style: none;
-    .active, :hover {
-        background-color: $logo-color;
+    .active,
+    :hover {
+      background-color: $logo-color;
     }
   }
 
   &__listItem {
-      display: flex;
-      align-items: center;
-      border-radius: 10px;
-      cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px 0;
   }
 
   &__icons {
-      margin-right: 5px;
-      font-size: 20px;
+    margin-right: 5px;
+    font-size: 20px;
   }
 }
