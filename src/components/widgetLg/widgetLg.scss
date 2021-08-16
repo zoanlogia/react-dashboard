@@ -1,0 +1,65 @@
+/** @format */
+
+@import "../../variables.scss";
+
+.widgetLg {
+  flex: 2;
+  -webkit-box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
+  box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 20px;
+
+  &__image {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  &__button {
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: $btn-color;
+    color: $grey-color;
+  }
+
+  .Approuvé {
+    background-color: #e5faf2;
+    color: #3bb077;
+  }
+
+  .Décliné {
+    background-color: #fff0f1;
+    color: #d95087;
+  }
+
+  .En.attente {
+    background-color: #ebf1fe;
+    color: #2a7ade;
+  }
+
+  &__table {
+    width: 100%;
+    border-spacing: 20px;
+
+    &__tr {
+      &__th {
+        text-align: left;
+      }
+    }
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+  }
+
+  &__date, &__amount {
+      font-weight: 300;
+  }
+
+}
