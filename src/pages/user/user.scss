@@ -6,48 +6,88 @@
   flex: 4;
   padding: 20px;
 
-  &__titleContainer {
+  &__container__title {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-    &__addButton {
-      border-radius: 10px;
-      padding: 5px 10px;
-      background-color: $btn-color;
-      color: $grey-color;
-      border: none;
-      cursor: pointer;
-      font-size: 16px;
+  }
+
+  &__btn {
+    border: none;
+    align-items: center;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: $btn-color;
+    color: $grey-color;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  &__container {
+    display: flex;
+    margin-top: 20px;
+
+    &__userShow {
+      flex: 1;
+      padding: 20px;
+      -webkit-box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
+      box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
+
+      &__top {
+        display: flex;
+        align-items: center;
+
+        &__img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+
+        &__title {
+          display: flex;
+          flex-direction: column;
+          margin-left: 20px;
+
+          &__username {
+            font-weight: 600;
+          }
+
+          &__job {
+            font-weight: 300;
+          }
+        }
+      }
+
+      &__bottom {
+        margin-top: 20px;
+
+        &__description {
+          color: $grey-color;
+        }
+
+        &__info {
+          display: flex;
+          align-items: center;
+          margin: 20px 0;
+          
+          &__icon {
+            font-size: 16px !important;
+          }
+
+          &__title, &__date, &__email, &__number, &__adress {
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+
+    &__userUpdate {
+      flex: 2;
+      padding: 20px;
+      -webkit-box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
+      box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
+      margin-left: 20px;
     }
   }
-
-  &__userContainer {
-      display: flex;
-      margin-top: 20px;
-
-      &__userShow {
-          flex: 1;
-          padding: 20px;
-          -webkit-box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
-          box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
-
-          &__top {
-
-            &__img {
-                height: 80px;
-                width: 80px;
-            }
-          }
-      }
-
-      &__userUpdate {
-          flex: 2;
-          padding: 20px;
-          -webkit-box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
-          box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
-          margin-left: 20px;
-      }
-  }
-
 }
