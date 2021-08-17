@@ -70,12 +70,16 @@
           display: flex;
           align-items: center;
           margin: 20px 0;
-          
+
           &__icon {
             font-size: 16px !important;
           }
 
-          &__title, &__date, &__email, &__number, &__adress {
+          &__title,
+          &__date,
+          &__email,
+          &__number,
+          &__adress {
             margin-left: 10px;
           }
         }
@@ -88,6 +92,27 @@
       -webkit-box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
       box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
       margin-left: 20px;
+
+      &__form {
+        &__right {
+          &__upload {
+            display: flex;
+            justify-content: space-between;
+            &__img {
+        
+              width: 100px;
+              height: 100px;
+              border-radius: 10px;
+              object-fit: cover;
+              margin-right: 20px;
+            }
+          }
+        }
+
+        &__left {
+          
+        }
+      }
     }
   }
 }

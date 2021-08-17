@@ -8,6 +8,7 @@ import {
   MailOutline,
   PermIdentity,
   PhoneAndroid,
+  Publish,
 } from "@material-ui/icons";
 
 export default function User() {
@@ -73,7 +74,85 @@ export default function User() {
             </div>
           </div>
         </div>
-        <div className="user__container__userUpdate"></div>
+        <div className="user__container__userUpdate">
+          <span className="user__container__userUpdate__title">Editer</span>
+          <form action="" className="user__container__userUpdate__form">
+            <div className="user__container__userUpdate__form__left">
+              <div className="user__container__userUpdate__form__left__item">
+                <label htmlFor="username">Nom d'utilisateur</label>
+                <input
+                  type="text"
+                  placeholder="zoanlogia75"
+                  className="user__container__userUpdate__form__left__item__input"
+                />
+              </div>
+            </div>
+            <div className="user__container__userUpdate__form__left">
+              <div className="user__container__userUpdate__form__left__item">
+                <label htmlFor="firstname">Prénom</label>
+                <input
+                  type="text"
+                  placeholder="Guillaume"
+                  className="user__container__userUpdate__form__left__item__input"
+                />
+              </div>
+            </div>
+            <div className="user__container__userUpdate__form__left">
+              <div className="user__container__userUpdate__form__left__item">
+                <label htmlFor="lastname">Nom de famille</label>
+                <input
+                  type="text"
+                  placeholder="Flambard"
+                  className="user__container__userUpdate__form__left__item__input"
+                />
+              </div>
+            </div>
+            <div className="user__container__userUpdate__form__left">
+              <div className="user__container__userUpdate__form__left__item">
+                <label htmlFor="email">Email</label>
+                <input
+                  type="text"
+                  placeholder="xxxx@xxx.com"
+                  className="user__container__userUpdate__form__left__item__input"
+                />
+              </div>
+            </div>
+            <div className="user__container__userUpdate__form__left">
+              <div className="user__container__userUpdate__form__left__item">
+                <label htmlFor="username">Téléphone</label>
+                <input
+                  type="number"
+                  placeholder="xx xx xx xx xx"
+                  className="user__container__userUpdate__form__left__item__input"
+                />
+              </div>
+            </div>
+            <div className="user__container__userUpdate__form__left">
+              <div className="user__container__userUpdate__form__left__item">
+                <label htmlFor="username">Adresse</label>
+                <input
+                  type="text"
+                  placeholder="2 rue de popaul, Paris"
+                  className="user__container__userUpdate__form__left__item__input"
+                />
+              </div>
+            </div>
+            
+            <div className="user__container__userUpdate__form__rigth">
+              <div className="user__container__userUpdate__form__rigth__upload">
+                <img
+                  src={Avatar}
+                  alt="avatar"
+                  className="user__container__userUpdate__form__right__upload__img"
+                />
+                <label htmlFor="file">
+                  <Publish />
+                </label>
+                <input type="file" id="file" style={{ display: "none" }} />
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   );
