@@ -86,8 +86,6 @@ export default function User() {
                   className="user__container__userUpdate__form__left__item__input"
                 />
               </div>
-            </div>
-            <div className="user__container__userUpdate__form__left">
               <div className="user__container__userUpdate__form__left__item">
                 <label htmlFor="firstname">Prénom</label>
                 <input
@@ -96,8 +94,6 @@ export default function User() {
                   className="user__container__userUpdate__form__left__item__input"
                 />
               </div>
-            </div>
-            <div className="user__container__userUpdate__form__left">
               <div className="user__container__userUpdate__form__left__item">
                 <label htmlFor="lastname">Nom de famille</label>
                 <input
@@ -106,8 +102,6 @@ export default function User() {
                   className="user__container__userUpdate__form__left__item__input"
                 />
               </div>
-            </div>
-            <div className="user__container__userUpdate__form__left">
               <div className="user__container__userUpdate__form__left__item">
                 <label htmlFor="email">Email</label>
                 <input
@@ -116,8 +110,6 @@ export default function User() {
                   className="user__container__userUpdate__form__left__item__input"
                 />
               </div>
-            </div>
-            <div className="user__container__userUpdate__form__left">
               <div className="user__container__userUpdate__form__left__item">
                 <label htmlFor="username">Téléphone</label>
                 <input
@@ -126,8 +118,6 @@ export default function User() {
                   className="user__container__userUpdate__form__left__item__input"
                 />
               </div>
-            </div>
-            <div className="user__container__userUpdate__form__left">
               <div className="user__container__userUpdate__form__left__item">
                 <label htmlFor="username">Adresse</label>
                 <input
@@ -137,7 +127,6 @@ export default function User() {
                 />
               </div>
             </div>
-            
             <div className="user__container__userUpdate__form__rigth">
               <div className="user__container__userUpdate__form__rigth__upload">
                 <img
