@@ -1,5 +1,6 @@
 import "./sidebar.scss";
 import { EqualizerSharp, EuroSharp, FeedbackSharp, LineStyle, MailSharp, MessageSharp, PersonSharp, ReportSharp, StorefrontSharp, Timeline, TrendingUp, WorkSharp } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
@@ -25,14 +26,18 @@ export default function Sidebar() {
         <div className="sidebar__menu">
           <h3 className="sidebar__title">Menu rapide</h3>
           <ul className="sidebar__list">
+            <Link className="link" to="/users">
             <li className="sidebar__listItem">
               <PersonSharp className="sidebar__icons" />
-              Utilsateurs
+              Utilisateurs
             </li>
+            </Link>
+            <Link className="link" to="/products">
             <li className="sidebar__listItem">
               <StorefrontSharp className="sidebar__icons"/>
               Produits
             </li>
+            </Link>
             <li className="sidebar__listItem">
               <EuroSharp className="sidebar__icons"/>
               Transactions

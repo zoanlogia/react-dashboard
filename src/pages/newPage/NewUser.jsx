@@ -61,13 +61,17 @@ export default function NewUser() {
           </div>
         </div>
         <div className="newUser__form__item">
-            <label>Actif</label>
-            <select name="active" id="active" className="newUser__form__item--active">
-                <option value="yes">Oui</option>
-                <option value="no">Non</option>
-            </select>
+          <label>Actif</label>
+          <select
+            name="active"
+            id="active"
+            className="newUser__form__item--active">
+            <option value="yes">Oui</option>
+            <option value="no">Non</option>
+          </select>
         </div>
       </form>
+        <button className="newUser__form__item__btn">Créer</button>
     </div>
   );
 }
