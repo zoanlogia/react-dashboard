@@ -10,13 +10,15 @@ import {
   PhoneAndroid,
   Publish,
 } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 
 export default function User() {
   return (
     <div className="user">
-      <div className="container__title">
+      <div className="user__container__title">
         <h1 className="title__user">Modifier vos informations</h1>
-        <button className="user__btn">Modifier</button>
+        <Link to="/newUser"></Link>
+        <button className="user__btn">Créer</button>
       </div>
       <div className="user__container">
         <div className="user__container__userShow">
@@ -75,7 +77,7 @@ export default function User() {
           </div>
         </div>
         <div className="user__container__userUpdate">
-          <span className="user__container__userUpdate__title">Editer</span>
+          <h3 className="user__container__userUpdate__title">Editer</h3>
           <form action="" className="user__container__userUpdate__form">
             <div className="user__container__userUpdate__form__left">
               <div className="user__container__userUpdate__form__left__item">
@@ -127,18 +129,21 @@ export default function User() {
                 />
               </div>
             </div>
-            <div className="user__container__userUpdate__form__rigth">
-              <div className="user__container__userUpdate__form__rigth__upload">
+            <div className="user__container__userUpdate__form__right">
+              <div className="user__container__userUpdate__form__right__upload">
                 <img
                   src={Avatar}
                   alt="avatar"
                   className="user__container__userUpdate__form__right__upload__img"
                 />
                 <label htmlFor="file">
-                  <Publish />
+                  <Publish className="user__container__userUpdate__form__right__upload__icon" />
                 </label>
                 <input type="file" id="file" style={{ display: "none" }} />
               </div>
+              <button className="user__container__userUpdate__form__right__btn">
+                Modifier
+              </button>
             </div>
           </form>
         </div>

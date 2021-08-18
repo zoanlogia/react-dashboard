@@ -8,7 +8,6 @@
 
   &__container__title {
     display: flex;
-    align-items: center;
     justify-content: space-between;
   }
 
@@ -17,11 +16,12 @@
     align-items: center;
     border-radius: 10px;
     padding: 7px 10px;
-    background-color: $btn-color;
-    color: $grey-color;
+    background-color: #504f4f;
     cursor: pointer;
     font-size: 16px;
+    color: white;
   }
+
 
   &__container {
     display: flex;
@@ -93,24 +93,77 @@
       box-shadow: 7px -2px 15px 1px rgba(0, 0, 0, 0.31);
       margin-left: 20px;
 
+      &__title {
+        margin-left: 10px;
+        font-weight: 600;
+      }
+
       &__form {
         display: flex;
         justify-content: space-between;
+
         &__right {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          &__btn {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            border-radius: 10px;
+            border: none;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            padding: 7px 10px;
+            background-color: #504f4f;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+
+          }
+
           &__upload {
+            display: flex;
+            align-items: center;
+
             &__img {
               width: 100px;
               height: 100px;
-              border-radius: 10px;
+              border-radius: 50%;
               object-fit: cover;
               margin-right: 20px;
+            }
+
+            &__icon {
+              cursor: pointer;
             }
           }
         }
 
         &__left {
           &__item {
+            display: flex;
+            flex-direction: column;
+            margin: 18px 10px;
 
+            label {
+              font-size: 14px;
+            }
+
+            &__input {
+              border: none;
+              width: 250px;
+              border-bottom: 1px solid lightgray;
+              height: 35px;
+
+              &:focus,
+              textarea:focus,
+              select:focus {
+                outline: none;
+              }
+            }
           }
         }
       }
