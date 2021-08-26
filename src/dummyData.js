@@ -1,4 +1,5 @@
 import Avatar from './assets/img/moi.jpg'
+import Drone from './assets/img/drone.png'
 
 export const userData = [
   {
@@ -45,6 +46,23 @@ export const userData = [
     name: "Dec",
     "Active User": 3490,
   },
+];
+
+
+export const productData = [
+  {
+    name: "Jan",
+    "Sales": 4000,
+  },
+  {
+    name: "Fev",
+    "Sales": 3000,
+  },
+  {
+    name: "Mar",
+    "Sales": 2000,
+  },
+
 ];
 
 export const userRows = [
@@ -148,3 +166,94 @@ export const userRows = [
     transaction: "120€",
   },
 ];
+
+export const productRows = [
+  {
+    id: 1,
+    name: 'Drone 4K',
+    img: { Drone },
+    stock: 324,
+    status: 'active',
+    price: "120€",
+  },
+  {
+    id: 2,
+    name: 'Drone 4K',
+    img: { Drone },
+    stock: 324,
+    status: 'active',
+    price: "120€",
+  },
+  {
+    id: 2,
+    name: 'Drone 4K',
+    img: { Drone },
+    stock: 324,
+    status: 'active',
+    price: "120€",
+  },
+  {
+    id: 3,
+    name: 'Drone 4K',
+    img: { Drone },
+    stock: 324,
+    status: 'active',
+    price: "120€",
+  },
+  {
+    id: 4,
+    name: 'Drone 4K',
+    img: { Drone },
+    stock: 324,
+    status: 'active',
+    price: "120€",
+  },
+  {
+    id: 5,
+    name: 'Drone 4K',
+    img: { Drone },
+    stock: 324,
+    status: 'active',
+    price: "120€",
+  },
+  {
+    id: 6,
+    name: 'Drone 4K',
+    img: { Drone },
+    stock: 324,
+    status: 'active',
+    price: "120€",
+  },
+  {
+    id: 7,
+    name: 'Drone 4K',
+    img: { Drone },
+    stock: 324,
+    status: 'active',
+    price: "120€",
+  },
+  {
+    id: 8,
+    name: 'Drone 4K',
+    img: { Drone },
+    stock: 324,
+    status: 'active',
+    price: "120€",
+  },
+  {
+    id: 9,
+    name: 'Drone 4K',
+    img: { Drone },
+    stock: 324,
+    status: 'active',
+    price: "120€",
+  },
+  {
+    id: 10,
+    name: 'Drone 4K',
+    img: { Drone },
+    stock: 324,
+    status: 'active',
+    price: "120€",
+  },
+]

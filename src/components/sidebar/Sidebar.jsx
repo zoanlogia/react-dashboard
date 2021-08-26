@@ -9,10 +9,12 @@ export default function Sidebar() {
         <div className="sidebar__menu">
           <h3 className="sidebar__title">Dashboard</h3>
           <ul className="sidebar__list">
+            <Link className="link" to="/" />
             <li className="sidebar__listItem">
               <LineStyle className="sidebar__icons" />
               Accueil
             </li>
+            <Link/>
             <li className="sidebar__listItem">
               <Timeline className="sidebar__icons"/>
               Analyses
@@ -32,7 +34,7 @@ export default function Sidebar() {
               Utilisateurs
             </li>
             </Link>
-            <Link className="link" to="/products">
+            <Link className="link" to="/product">
             <li className="sidebar__listItem">
               <StorefrontSharp className="sidebar__icons"/>
               Produits
